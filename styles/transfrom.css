@@ -1,0 +1,15 @@
+.container, .inner{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+   background-color: teal;
+}
+
+.inner:hover{
+    background-color: rgb(1, 18, 44);
+    transform: rotate(40deg) scale(1) skew(10deg) translate(45px);
+}
+
+

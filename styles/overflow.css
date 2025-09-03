@@ -1,0 +1,13 @@
+.box{
+    border: 2px solid teal;
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+}
+
+.ellipsis{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
